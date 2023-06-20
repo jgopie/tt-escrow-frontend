@@ -1,9 +1,10 @@
+import './layout.styles.scss';
 import { Link, Outlet } from 'react-router-dom';
 const Layout = () => {
     return (
         <div>
-            <nav>
-                <ul className='flex justify-end space-x-11 mr-11 items-center h-10'>
+            <nav className='nav-main'>
+                <ul className='nav-list'>
                     <li>
                         <Link to='/'>Home</Link>
                     </li>
@@ -17,7 +18,7 @@ const Layout = () => {
                         <Link to='/sign-up'>Sign Up</Link>
                     </li>
                 </ul>
-                <hr className='h-px bg-gray-950 border-0' />
+                <hr className='' />
             </nav>
             <Outlet />
         </div>

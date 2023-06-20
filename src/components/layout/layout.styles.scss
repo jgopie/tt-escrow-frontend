@@ -1,0 +1,13 @@
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8vw;
+    padding-right: 5vw;
+
+    li {
+        a {
+            text-decoration: none;
+        }
+    }
+}

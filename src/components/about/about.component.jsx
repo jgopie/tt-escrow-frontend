@@ -2,26 +2,26 @@ const About = () => {
     return (
         <>
             <main>
-                <article className="grid grid-cols-1 h-5/6 w-screen items-center px-60 py-10">
+                <article className="">
                     <div>
-                        <h1 className="text-7xl mt-10">What is 'escrow?'</h1>
-                        <p className="text-2xl mt-3">
+                        <h1 className="">What is 'escrow?'</h1>
+                        <p className="">
                             To put it as simply as possible, escrow is a legal arrangement
                             where a third party temporarily holds money or property until
                             an agreed upon condition has been met.
                         </p>
                     </div>
                     <div>
-                        <h2 className="text-7xl mt-10">Not clear enough?</h2>
-                        <p className="text-2xl mt-3">
+                        <h2 className="">Not clear enough?</h2>
+                        <p className="">
                             Understandable. Escrow services are widespread throughout
                             the real estate market, but escrow can be used for virtually any
                             exchange of goods or services!
                         </p>
                     </div>
                     <div>
-                        <h2 className="text-7xl mt-10">Let's walk through an example!</h2>
-                        <p className="text-2xl mt-3">
+                        <h2 className="">Let's walk through an example!</h2>
+                        <p className="">
                             Assume that you're looking to get some small
                             renovations done on your home. You go online or ask
                             a friend and get recommended a contractor who you've never

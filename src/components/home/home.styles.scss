@@ -1,0 +1,27 @@
+@mixin margins {
+    margin-left: 5vw;
+    margin-top: 10vh;
+}
+
+.home-header {
+    font-size: 3rem;
+    @include margins;
+    text-transform: capitalize;
+    font-family: 'EB Garamond', serif;
+    line-height: 1vw;
+
+    h1 {
+        font-weight: bold;
+    }
+}
+
+.home-article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+    div {
+        max-width: 75ch;
+        @include margins;
+    }
+}

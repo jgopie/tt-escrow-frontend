@@ -1,25 +1,27 @@
+import './home.styles.scss';
+
 const Home = () => {
     return (
         <>
-            <header>
-                <h1 className="text-8xl font-bold">Welcome to TT Escrow</h1>
-                <p className="text-6xl">Your safe guard for worry free transactions.</p>
+            <header className='home-header'>
+                <h1>Welcome to TT Escrow</h1>
+                <p>Worry free transactions for all consumers.</p>
             </header>
             <main>
                 <section>
-                    <article className="grid grid-cols-1">
-                        <div className="my-20">
-                            <h2 className="text-4xl font-bold">Our Vision</h2>
-                            <p className="text-2xl">
+                    <article className="home-article">
+                        <div className="">
+                            <h2 className="">Our Vision</h2>
+                            <p className="">
                                 We see a future where all consumers
                                 are able to conduct business securely,
                                 and with peace of mind.
                             </p>
                         </div>
                         <div>
-                            <h2 className="text-4xl font-bold">Our Mission</h2>
-                            <p className="text-2xl">
-                                To facilitate
+                            <h2 className="">Our Mission</h2>
+                            <p className="">
+                                To facilitate quick and easy transactions throughout the Caribbean.
                             </p>
                         </div>
                     </article>
